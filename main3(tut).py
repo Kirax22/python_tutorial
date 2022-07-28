@@ -47,36 +47,6 @@
 # and then return the result
 #
 
-print("Enter 1st numbet")
-num1 = int(input())
-print("Enter 2nd number")
-num2 = int(input())
-print("Choose your operator '+' +,-,/,%,*")
-num3 = input()
-
-if num1 == 45 and num2 == 3 and  num3 == '*':
-    print("555")
-elif num1 == 56 and num2 == 9 and num3 == '+':
-    print("77")
-elif num1 == 56 and num2 == 6 and num3 == '/':
-    print("4")
-elif num3 == '*':
-    num4 = num1 * num2
-    print(num4)
-elif num3 == '+':
-    ADD = num1 + num2
-    print(ADD)
-elif num3 == '/':
-    Dev = num1 / num2
-    print(Dev)
-elif num3 == '-':
-    Sub = num1 -num2
-    print(Sub)
-elif num3 == '%':
-    per = num1 % num2
-    print(per)
-else:
-    print("Error please check your input ")
 
 
 
