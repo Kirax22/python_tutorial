@@ -34,6 +34,48 @@ print(z)
 
 # Slicing
 # you can return a range of characters by using slice syntax. Specify the start index and the end index, seperated by a colon, to return a part of the string
+# string slicing
+# String slicing return the characters falling between indices n and m
+# String at n, n+1,n+2...till m-1. The syntax is:
+#   Here n = size of the list  
+    # string[Start:End:Step_value(Skipping value)]
+# last index is to skip
+"""
+str1 = "My name is Kiran Rai"
+print(len(str1))
+print(str1[::-2])
+"""
 
-var = "This is Kiran Rai,. Who am I talking to?"
-print(var(7:11))
+# list data type in python
+# list is a collection of different values or different types of items.
+# unlike array in c/c++/java a list is capable of storing different types of values under one roof.
+# The list in the list are seperated with the comma(,) and enclosed in square bracket[].
+# List provides us the facility to store multiple types of values in a single unit.
+# There is two types of indexing:
+# Forward indexing
+# and Backward indexing
+# You can update the value of any list using 
+
+# Example practice
+
+# list = ["Kiran", "Rai", "Is", "A", "Hacker", 1 ,1 ,22,23,43,32]
+# print(list[:3:-1])
+
+# we can also put list inside list aka 2dlist,3d list and so on....
+ 
+# list1 = [[1,2,3],[4,5,6],[7,8,9]]
+# for sublist in list1:
+#     for i in sublist:
+#         print(i)
+# print(type(list1))
+
+# list2 = [
+#     [1,2,3,],[5,6,7],[8,9,0]
+# ]
+# list2.insert([1],[1],4)
+# print(list2)
+
+
+list3 = [1,2,3,4,5,7,8]
+list3.clear()
+print(list3)
