@@ -66,7 +66,7 @@ print(str1[::-2])
 # list1 = [[1,2,3],[4,5,6],[7,8,9]]
 # for sublist in list1:
 #     for i in sublist:
-#         print(i)
+#         print(i) 
 # print(type(list1))
 
 # list2 = [
@@ -74,8 +74,21 @@ print(str1[::-2])
 # ]
 # list2.insert([1],[1],4)
 # print(list2)
-
+"""
 
 list3 = [1,2,3,4,5,7,8]
 list3.clear()
-print(list3)
+print("""
+
+# Dictionary
+# A dictionary is a collection which is unordered, changeble and indexed. In python dictionaries are written within curly brackets, and they have keys and values. Means the dictionary contains two things first is the key and second is value.
+"""
+dict1 = {'Kiran': "Rai", 'Dipika': "Tamang",} 
+for x in dict1.values():
+    print(x)
+"""
+# change value of dictionary
+
+dict1 = {'Kiran': "Rai", 'Dipika': "Tamang",} 
+dict1['Dipika'] = 'Rai'
+print(dict1)
